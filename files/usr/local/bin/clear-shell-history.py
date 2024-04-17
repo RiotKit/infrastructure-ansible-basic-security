@@ -13,7 +13,7 @@ import pwd
 import subprocess
 
 HISTORY_FILES = ['.bash_history', '.sqlite_history', '.python_history',
-                 '.config/psysh/psysh_history', '.psql_history', '.zsh_history']
+                 '.config/psysh/psysh_history', '.psql_history', '.zsh_history', '.zhistory']
 exit_status = True
 
 for p in pwd.getpwall():
