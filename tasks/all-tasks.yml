@@ -1,16 +1,16 @@
-- include: install-required-packages.yml
+- include_tasks: install-required-packages.yml
 
-- include: configure-ssh.yml
+- include_tasks: configure-ssh.yml
   when: configure_ssh == True
 
-- include: logs-anonymization.yml
+- include_tasks: logs-anonymization.yml
   when: anonymize_logs == True
 
-- include: shell-history-cleaning.yml
+- include_tasks: shell-history-cleaning.yml
   when: clear_shell_history == True
 
-- include: configure-firewall.yml
+- include_tasks: configure-firewall.yml
   when: configure_firewall == True
 
-- include: change-root-password.yml
+- include_tasks: change-root-password.yml
   when: change_root_password == True
