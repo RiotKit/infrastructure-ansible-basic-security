@@ -1,7 +1,7 @@
 galaxy_info:
-  author: Krzysztof Wesołowski
+  author: Olivia
   description: Basic security role (JUST ANOTHER SECURITY ROLE)
-  company: IWA-AIT.org / ZSP (non-profit organization)
+  company: Riotkit
   license: MIT
   min_ansible_version: 1.2
 
